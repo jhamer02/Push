@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4CCF44F1D306DE800969202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CCF44E1D306DE800969202 /* main.m */; };
 		E4CCF4521D306DE800969202 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CCF4511D306DE800969202 /* AppDelegate.m */; };
-		E4CCF4551D306DE800969202 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CCF4541D306DE800969202 /* ViewController.m */; };
+		E4CCF4551D306DE800969202 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CCF4541D306DE800969202 /* Start.m */; };
 		E4CCF4581D306DE800969202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CCF4561D306DE800969202 /* Main.storyboard */; };
 		E4CCF45B1D306DE800969202 /* Push.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4CCF4591D306DE800969202 /* Push.xcdatamodeld */; };
 		E4CCF45D1D306DE800969202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CCF45C1D306DE800969202 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		E4CCF44E1D306DE800969202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4CCF4501D306DE800969202 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4CCF4511D306DE800969202 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4CCF4531D306DE800969202 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4CCF4541D306DE800969202 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4CCF4531D306DE800969202 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		E4CCF4541D306DE800969202 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		E4CCF4571D306DE800969202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4CCF45A1D306DE800969202 /* Push.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Push.xcdatamodel; sourceTree = "<group>"; };
 		E4CCF45C1D306DE800969202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		E4CCF44C1D306DE800969202 /* Push */ = {
 			isa = PBXGroup;
 			children = (
-				E4CCF4501D306DE800969202 /* AppDelegate.h */,
-				E4CCF4511D306DE800969202 /* AppDelegate.m */,
-				E4CCF4531D306DE800969202 /* ViewController.h */,
-				E4CCF4541D306DE800969202 /* ViewController.m */,
+				E4CCF4681D306E4F00969202 /* Main */,
+				E4CCF4671D306E4600969202 /* Controllers */,
 				E4CCF4561D306DE800969202 /* Main.storyboard */,
 				E4CCF45C1D306DE800969202 /* Assets.xcassets */,
 				E4CCF45E1D306DE800969202 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				E4CCF44E1D306DE800969202 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4CCF4671D306E4600969202 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4CCF4531D306DE800969202 /* Start.h */,
+				E4CCF4541D306DE800969202 /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E4CCF4681D306E4F00969202 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4CCF4501D306DE800969202 /* AppDelegate.h */,
+				E4CCF4511D306DE800969202 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4CCF4551D306DE800969202 /* ViewController.m in Sources */,
+				E4CCF4551D306DE800969202 /* Start.m in Sources */,
 				E4CCF45B1D306DE800969202 /* Push.xcdatamodeld in Sources */,
 				E4CCF4521D306DE800969202 /* AppDelegate.m in Sources */,
 				E4CCF44F1D306DE800969202 /* main.m in Sources */,
